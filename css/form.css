@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @media only screen and (max-width: 767px){} */
+.nav-mobile{
+    background: #000000;
+}
+.login-form {
+    padding: 40px 20px;
+}
+
+.para1 {
+    color: #1C1C1C;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Unbounded';
+}
+
+.para2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 14px;
+    font-family: 'outfit';
+}
+
+.login-email input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 1px solid rgb(165, 163, 163);
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.password input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 1px solid rgb(165, 163, 163);
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+button {
+    font-size: 14px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    background-color: #DE2A2C;
+    color: #fff;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Unbounded';
+}
+
+input:focus {
+    outline: 1px solid #000000 !important;
+}
+
+.new-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    column-gap: 15px;
+    color:  rgb(136, 132, 132);
+    font-family: 'outfit';
+}
+
+.account a {
+    color: #000;
+    color:  rgb(136, 132, 132);
+    font-family: 'outfit';
+}
